@@ -13,7 +13,7 @@ function articleCountBasedOnYear(year){
       				console.log(count_array.count.value);
       				var count = count_array.count.value;
       				$('#year').empty();
-                	$('#year').append("<p><b>"+count+"</b> articles were published in <b>"+year+"</b></p>");
+                	$('#year').append("<p><b>"+count+"</b> Journal articles were published in <b>"+year+"</b></p>");
       			});
       			
       		},
