@@ -5,6 +5,7 @@ function articleCountBasedOnYear(year){
 	$.ajax({
       		type: "GET",
       		url: query_year_url,
+		crossDomain: true,
       		dataType: "json",
       		success: function(data) {
       			console.log(data);
